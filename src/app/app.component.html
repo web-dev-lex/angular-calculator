@@ -2,6 +2,43 @@
 
 <h2>{{ title }}</h2>
 
-<app-first-num></app-first-num>
+<div class="container">
+
+  <input type="text" id="display" class="display">
+
+  <div class="row" id="row">
+    <button class="btn large-btn" type="button">AC</button>
+    <button class="btn" type="button">DEL</button>
+    <button class="btn orange" type="button">÷</button>
+  </div>
+
+  <div class="row" id="row">
+    <button class="btn" type="button">7</button>
+    <button class="btn" type="button">8</button>
+    <button class="btn" type="button">9</button>
+    <button class="btn orange" type="button">x</button>
+  </div>
+
+  <div class="row" id="row">
+    <button class="btn" type="button">4</button>
+    <button class="btn" type="button">5</button>
+    <button class="btn" type="button">6</button>
+    <button class="btn orange" type="button">-</button>
+  </div>
+
+  <div class="row" id="row">
+    <button class="btn" type="button">1</button>
+    <button class="btn" type="button">2</button>
+    <button class="btn" type="button">3</button>
+    <button class="btn orange" type="button">+</button>
+  </div>
+
+  <div class="row" id="row">
+    <button class="btn large-btn" type="button">0</button>
+    <button class="btn" type="button">.</button>
+    <button class="btn orange" type="button">=</button>
+  </div>
+
+</div>
 
 <router-outlet></router-outlet>
