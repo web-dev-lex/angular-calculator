@@ -33,6 +33,7 @@ h2 {
   border: none;
   color: #fff;
   padding: 0 0.3em;
+  text-align: right;
 }
 
 .row {
@@ -40,13 +41,16 @@ h2 {
 }
 
 .btn {
-  width: 2.25em;
-  height: 2.25em;
-  border: 1px solid #767676;
-  font-size: 1.5rem;
+  width: 2.5em;
+  height: 2.5em;
+  /* border: 1px solid #767676; */
+  border: none;
+  font-size: 1.2rem;
   font-weight: 300;
+  border-radius: 2em;
+  margin: 2px;
 }
 
 .large-btn {
-  width: 4.5em;
+  width: 5.1em;
 }
